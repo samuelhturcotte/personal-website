@@ -671,14 +671,43 @@ form{
 
 .hero-wrap {
   display: flex;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .hero-wrap div {
-  flex-basis: 50%;
-  padding: 20px;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 .accent-color {
-  color: #03989e;
+  color: var(--accent-color);
+}
+
+.bio-section {
+  font-style: italic;
+  font-weight: 100;
+  border-right: 1px solid #a6a6a6;
+  font-family: 'Noto Serif';
+  font-size: 22px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.bio-section p {
+  margin-left: auto;
+  line-height: 1.5;
+  color: #484045
+}
+
+.intro-section {
+  font-family: 'Oswald';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.intro-section p {
+  padding-left: 40px;
+  margin: 22px 0;
+  line-height: 1.5;
+  color: #484045
 }
