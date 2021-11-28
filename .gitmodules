@@ -1,0 +1,3 @@
+[submodule "public/jumpgame"]
+	path = public/jumpgame
+	url = git@github.com:samuelhturcotte/jump-game.git
