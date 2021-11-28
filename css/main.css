@@ -561,7 +561,9 @@ h3{
 
 .content-wrap ul {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
+  gap: 45px
 }
 
 .content-wrap li {
@@ -614,8 +616,7 @@ h3{
 /* relevant styles */
 .img__wrap {
   position: relative;
-  width: 572px;
-  height: 314px;
+  max-width: 570px;
 
   -webkit-box-shadow: 0 2px 4px rgb(1 14 40 / 5%);
   box-shadow: 0 2px 4px rgb(1 14 40 / 5%);
@@ -628,7 +629,7 @@ h3{
 }
 
 .img__wrap:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   -webkit-box-shadow: 0 10px 20px rgb(1 14 40 / 10%);
   box-shadow: 0 10px 20px rgb(1 14 40 / 10%);
   transition-property: height;
