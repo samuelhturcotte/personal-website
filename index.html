@@ -34,18 +34,20 @@
 
 <body>
     <main>
-    <div class="welcome-intro">
+    <nav class="header welcome-intro">
         <div>
             <h1>Samuel Turcotte</h1>
             <h2>UI/UX Designer</h2>
         </div>
-        <nav class="welcome-menu">
-            <a class="menu-selected" href="index.html">Portfolio</a>
-            <a class="menu-items" href="pages/about.html">About</a>
-            <a class="menu-items" target="_blank" href="Samuel Turcotte Resume (2021 ) 7.03.31 PM.pdf">Resume</a>
-            <a class="menu-items" href="pages/getintouch.html">Contact</a>
-        </nav>
-    </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><span class="menu-selected">Portfolio</span></li>
+            <li><a class="menu-items" href="pages/about.html">About</a></li>
+            <li><a class="menu-items" target="_blank" href="Samuel Turcotte Resume (2021 ) 7.03.31 PM.pdf">Resume</a></li>
+            <li><a class="menu-items" href="pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
         
 
     <div class="content-wrap">
@@ -57,7 +59,7 @@
                             <img class="img__img" src="img/jumpbull.png" />
                             <div class="img__description_layer">
                                 <p class="img__description--heading">Jump Over The Bull Game</p>
-                                <p class="img__description">This image looks super neat.</p>
+                                <p class="img__description">Game built with HTML/CSS/Vanilla JS</p>
                             </div>
                         </a>
                     </div>

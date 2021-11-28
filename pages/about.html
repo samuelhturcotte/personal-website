@@ -33,21 +33,23 @@
 
 <body>
   <main>
-    <div class="welcome-intro">
-      <div>
-        <h1>Samuel Turcotte</h1>
-        <h2>UI/UX Designer</h2>
-      </div>
-      <nav class="welcome-menu">
-        <a class="menu-items" href="../index.html">Portfolio</a>
-        <a class="menu-selected" href="about.html">About</a>
-        <a class="menu-items" target="_blank" href="../Samuel Turcotte Resume (2021 ) 7.03.31 PM.pdf">Resume</a>
-        <a class="menu-items" href="getintouch.html">Contact</a>
-      </nav>
+  <nav class="header welcome-intro">
+    <div>
+      <h1>Samuel Turcotte</h1>
+      <h2>UI/UX Designer</h2>
     </div>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a class="menu-items" href="../index.html">Portfolio</a></li>
+      <li><span class="menu-selected">About</span></li>
+      <li><a class="menu-items" target="_blank" href="../Samuel Turcotte Resume (2021 ) 7.03.31 PM.pdf">Resume</a></li>
+      <li><a class="menu-items" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
   
   <div class="content-wrap">
-    <div>
+    <div class="about-hero">
       <div>
         <h3>Hello,</h3>
         <p>My name is Samuel Turcotte, I am a UX student at BrainStation with a background in Recreation and Leisure Services
@@ -67,6 +69,7 @@
           field
           and will bring my passion of in inclusivity and technology into all what I do.</p>
       </div>
+      <img src="../img/samuel.jpg" alt="Samuel Turcotte">
     </div>
   </div>
   </main>

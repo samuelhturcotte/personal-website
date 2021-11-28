@@ -36,18 +36,21 @@
 
 <body>
     <main>
-        <div class="welcome-intro">
-            <div>
-                <h1>Samuel Turcotte</h1>
-                <h2>UI/UX Designer</h2>
-            </div>
-            <nav class="welcome-menu">
-                <a class="menu-items" href="../index.html">Portfolio</a>
-                <a class="menu-items" href="about.html">About</a>
-                <a class="menu-items" target="_blank" href="../Samuel Turcotte Resume (2021 ) 7.03.31 PM.pdf">Resume</a>
-                <a class="menu-selected" href="getintouch.html">Contact</a>
-            </nav>
+    <nav class="header welcome-intro">
+        <div>
+            <h1>Samuel Turcotte</h1>
+            <h2>UI/UX Designer</h2>
         </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a class="menu-items" href="../index.html">Portfolio</a></li>
+            <li><a class="menu-items" href="about.html">About</a></li>
+            <li><a class="menu-items" target="_blank" href="../Samuel Turcotte Resume (2021 ) 7.03.31 PM.pdf">Resume</a>
+            </li>
+            <li><span class="menu-selected">Contact</></li>
+        </ul>
+    </nav>
 
         <div class="content-wrap">
             <h3>Let's Connect</h3>
