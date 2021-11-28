@@ -12,12 +12,12 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="favicon.ico" href="favicon.ico">
+    <!-- <link rel="manifest" href="../site.webmanifest"> -->
+    <!-- <link rel="favicon.ico" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
@@ -25,11 +25,13 @@
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="theme-color" content="#fafafa">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -42,33 +44,31 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-            <li><span class="menu-selected">Portfolio</span></li>
-            <li><a class="menu-items" href="pages/about.html">About</a></li>
-            <li><a class="menu-items" target="_blank" href="public/resume.pdf">Resume</a></li>
-            <li><a class="menu-items" href="pages/contact.html">Contact</a></li>
+            <li><a class="menu-items" href="../index.html">Portfolio</a></li>
+            <li><a class="menu-items" href="about.html">About</a></li>
+            <li><a class="menu-items" target="_blank" href="../public/resume.pdf">Resume</a>
+            </li>
+            <li><span class="menu-selected">Contact</></li>
         </ul>
     </nav>
-        
 
-    <div class="content-wrap">
-        <div>
-            <ul>
-                <li>
-                    <div class="img__wrap">
-                        <a target="_blank" href="public/jumpgame/index.html">
-                            <img class="img__img" src="img/jumpbull.png" />
-                            <div class="img__description_layer">
-                                <p class="img__description--heading">Jump Over The Bull Game</p>
-                                <p class="img__description">Game built with HTML/CSS/Vanilla JS</p>
-                            </div>
-                        </a>
+        <div class="content-wrap">
+            <div class="contact-form">
+                <h3>Let's Connect</h3>
+                <form method="POST" action="https://formspree.io/f/xbjqzgya" name="EmailForm">
+                    <div>
+                        <input class="form-text-box" type="text" name="your_name" minlength="2" maxlength="60"
+                            placeholder="* Your Name"><br>
+                        <input class="form-text-box" type="email" name="your_email" minlength="2" maxlength="60"
+                            placeholder="* Your Email"><br>
+                        <textarea class="form-text-box" name="message" rows="10" cols="50" placeholder="* Your Message"></textarea><br>
+                        <input class="send-button" type="submit" value="Send" name="submit">
                     </div>
-                </li>
-            </ul>
+                </form>
+            </div>
         </div>
-    </div>
-    </main>
 
+    </main>
     <footer>
         <ul class="side-bar-icons">
             <li>
@@ -83,12 +83,11 @@
             </li>
         </ul>
     </footer>
-
     <!-- Add your site or application content here -->
 
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
