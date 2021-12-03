@@ -761,12 +761,13 @@ h3{
 .about-hero {
   display: flex;
   flex-direction: column-reverse;
-  gap: 50px;
 }
 .about-hero img {
   height: 100%;
   max-width: 300px;
+  max-height: 300px;
   box-shadow: 30px 27px var(--accent-color);
+  margin-bottom: 50px;
 }
 
 .contact-form {
@@ -781,6 +782,10 @@ h3{
 @media (min-width: 66em) {
   .about-hero {
     flex-direction: row;
+    gap: 50px;
+  }
+  .about-hero img {
+    margin-bottom: 0;
   }
   .header li {
     float: left;
