@@ -272,7 +272,7 @@ textarea {
 
 body{
   background-color: #ffff;
-  margin: 20px;
+  margin: 20px 35px;
 }
 
 .logo{
@@ -483,11 +483,12 @@ h3{
   text-decoration: none;
   bottom: 5px;
   left: 5px;
+  margin: 0;
 }
 
 .icon-link {
-  margin: 0 15px 0 15px;
-  font-size: 25px;
+  margin: 0;
+  font-size: 20px;
 }
 
 .icon-link:hover {
@@ -811,7 +812,7 @@ h3{
     margin: 50px 40px;
   }
   .icon-link {
-    margin: 0 15px 0 15px;
+    margin: 0 15px;
     font-size: 35px;
   }
   .img__wrap:hover .img__description_layer {
