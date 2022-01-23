@@ -272,7 +272,7 @@ textarea {
 
 body{
   background-color: #ffff;
-  margin: 0 80px 0 80px;
+  margin: 20px;
 }
 
 .logo{
@@ -641,10 +641,6 @@ h3{
   transition: opacity .3s, visibility .3s;
 }
 
-.img__wrap:hover .img__description_layer {
-  visibility: visible;
-  opacity: 1;
-}
 
 .img__img {
   width: 100%;
@@ -688,7 +684,7 @@ h3{
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height .3s ease-out;
   flex-basis: 100%;
 }
 
@@ -719,7 +715,7 @@ h3{
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all .25s ease-out;
   width: 100%;
 }
 
@@ -817,5 +813,9 @@ h3{
   .icon-link {
     margin: 0 15px 0 15px;
     font-size: 35px;
+  }
+  .img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
   }
 }

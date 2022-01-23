@@ -1,10 +1,10 @@
 {
-  "name": " ",
+  "name": "samuel-turcotte-portfolio",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "description": "Personal Portfolio website Samuel Turcotte",
+  "keywords": ["personal website", "samuel", "turcotte", "porfolio"],
   "license": "",
-  "author": "",
+  "author": "Samuel Turcotte",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
